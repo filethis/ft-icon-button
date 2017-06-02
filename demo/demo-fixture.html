@@ -18,7 +18,34 @@ A square button that has an icon with a small text label below it.
 
     <template>
 
-        <ft-icon-button></ft-icon-button>
+        <div class="layout vertical center">
+
+            <!-- Normal -->
+            <div class="layout horizontal center">
+                <div style="width:150px; font-size:14pt" align="right">Normal:</div>
+                <div style="width:35px;"></div>
+                <ft-icon-button></ft-icon-button>
+            </div>
+
+            <div style="height:25px;"></div>
+
+            <!-- Disabled -->
+            <div class="layout horizontal center">
+                <div style="width:150px; font-size:14pt" align="right">Disabled:</div>
+                <div style="width:35px;"></div>
+                <ft-icon-button disabled></ft-icon-button>
+            </div>
+
+            <div style="height:25px;"></div>
+
+            <!-- Toggle -->
+            <div class="layout horizontal center">
+                <div style="width:150px; font-size:14pt" align="right">Toggles:</div>
+                <div style="width:35px;"></div>
+                <ft-icon-button toggles></ft-icon-button>
+            </div>
+
+        </div>
 
     </template>
 
