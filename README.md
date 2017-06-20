@@ -1,6 +1,6 @@
-[_Demo and API docs_](https://filethis.github.io/ft-icon-button/components/ft-icon-button/)
+[_Demo and API docs_](https://filethis.github.io/ft-labeled-icon-button/components/ft-labeled-icon-button/)
 
-### \<ft-icon-button\>
+### \<ft-labeled-icon-button\>
 
 -----------------------------------------------------------
 
